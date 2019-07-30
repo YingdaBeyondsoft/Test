@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentPiece contentType="contentPiece" p1:lang="en" p2:xsi="http://www.w3.org/2001/XMLSchema-instance" p3:schemaLocation="http://schemas.microsoft.com/maml/2004/10 \\kingkong\root\public\Schema\AML\Win7\Maml.xsd" p2:ns3="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:p3="xsi" xmlns:p2="xmlns" xmlns:p1="xml" xmlns="http://schemas.microsoft.com/maml/2004/10">
+  <content>
+    <para srcId="822ce99d-e9fe-398c-952a-3244be5bc34f">
+      <notLocalizable>3198b177-cd74-4311-ab2d-fe5161353d24</notLocalizable>
+    </para>
+    <para srcId="7c5a65b6-627c-c5ea-f868-4f18b7e1e9f5">
+      <notLocalizable>1ec06392-87e2-4400-99c4-1c93c512c83e</notLocalizable>
+    </para>
+    <para srcId="9e6d21fb-9187-3ce6-8d12-bdc420956839">
+      <notLocalizable>en-us</notLocalizable>
+    </para>
+    <para srcId="e2cc9d59-8a99-406b-b1e3-8e8c6006cb0a">
+      <notLocalizable>Page</notLocalizable>
+    </para>
+    <para srcId="d7b1dc6c-8af5-44f7-bead-adbcea311c96">Overview of privacy controls for Office 365 ProPlus - Microsoft Privacy</para>
+    <para srcId="144b411f-0b3e-4bf2-ba7e-6ba40ee5acef">Overview privacy controls for Office 365 ProPlus</para>
+    <para srcId="ef0996fa-1e2c-420f-e3d2-7f655e43eed1" type="Text">Overview of privacy controls for Office 365 ProPlus</para>
+    <para srcId="0f2fcefa-a84c-1ea5-27aa-3990aee09e35" type="Text">
+                    Microsoft is committed to providing you with the information and controls you need to make choices about how your data is collected and used when you’re using Office 365 ProPlus.</para>
+    <para srcId="2a93ac42-d20d-a2c7-0093-958d44f6e376" type="Text">
+                    Starting with Version 1904 of Office 365 ProPlus (which was released in Monthly Channel on April 29, 2019), we are providing you with new, updated, and improved privacy controls for the following areas:</para>
+    <para srcId="d71636b7-c090-5968-843a-1c207395247c" type="Text">Diagnostic data</para>
+    <para srcId="dcc6e55b-8f72-d43e-3bec-953379b230bc" type="Text"> that is collected and sent to Microsoft about Office client software being used on computers running Windows in your organization.</para>
+    <para srcId="8d4a8613-8276-4662-a9fa-c6362eb7c004" type="Text">Connected experiences</para>
+    <para srcId="ec0cdb13-addd-e4a1-d59e-aba22ebd68a7" type="Text"> that use cloud-based functionality to provide enhanced Office features to you and your users.</para>
+    <para srcId="e0c30ec7-e547-423a-a350-431836b37344" type="Text">
+                    As part of these changes, there are new and updated user interface (UI) elements and policy settings.</para>
+    <para srcId="d984b90a-b01a-37a0-bdf6-92bf0e73c349" type="Text">Important</para>
+    <para srcId="ef80706d-841c-d4d3-bb90-ecc263da01d8" type="Text">These changes apply to Access, Excel, OneNote, Outlook, PowerPoint, Publisher, and Word.</para>
+    <para srcId="47c850b6-0ac2-fff8-ff91-8e467ffa4cd2" type="Text">These changes also apply to the desktop versions of Project and Visio that come with some subscription plans, such as the Project Online Professional plan or Visio Online Plan 2.</para>
+    <para srcId="1bad72de-bb42-ec44-9d5f-b5c20637c387" type="Text">Version 1904 is expected to be available in Semi-Annual Channel (Targeted) in September and in Semi-Annual Channel in January 2020.</para>
+    <para srcId="85811c41-53eb-eb2f-8df1-2107698df2dd" type="Text">We will be extending these new and improved privacy controls to additional Office clients, including Teams, Office for Mac, and our mobile apps. We’ll provide more information about those changes in the upcoming months. We will continue to carefully listen to your feedback and make improvements across all Office 365 clients and services.</para>
+    <para srcId="f4088945-294c-c2a1-ed06-dc4162f54b13" type="Text">Diagnostic data sent from Office 365 ProPlus to Microsoft
+				</para>
+    <para srcId="1d3de534-c5d9-d185-b6f6-8bc0a33e8d86" type="Text">
+                    Diagnostic data is used to keep Office secure and up-to-date, detect, diagnose and remediate problems, and also make product improvements. This data does not include a user’s name or email address, the content of the user’s files, or information about apps unrelated to Office.</para>
+    <para srcId="2ce849a4-614a-38f3-6722-3794ca4cc9c8" type="Text">
+                    This diagnostic data is collected and sent to Microsoft about Office client software being used on computers running Windows in your organization.</para>
+    <para srcId="5848ecb2-6ef4-6db8-0406-f89649fa1d98" type="Text">
+                    There are three levels of diagnostic data for Office 365 ProPlus client software that you can choose from:</para>
+    <para srcId="dbef51b6-a598-bdd6-2b39-35d0c3f4a5e2" type="Text">Required</para>
+    <para srcId="220133e6-2e64-f697-b0a3-c18a05426a37" type="Text"> The minimum data necessary to help keep Office secure, up-to-date, and performing as expected on the device it’s installed on.</para>
+    <para srcId="9561b0eb-043c-b254-c8ee-7b0ac615ebcd" type="Text">Optional</para>
+    <para srcId="39e43848-889b-d58b-b199-f0c9b06437cc" type="Text"> Additional data that helps us make product improvements and provides enhanced information to help us detect, diagnose, and remediate issues.</para>
+    <para srcId="7608e672-080a-2176-cc6f-67517b2de8eb" type="Text">Neither</para>
+    <para srcId="f78fccbc-8920-7824-1c74-c6d76c1f1d65" type="Text"> No diagnostic data about Office client software running on the user’s device is collected and sent to us. This option, however, significantly limits our ability to detect, diagnose, and remediate problems your users may encounter using Office.</para>
+    <para srcId="6383c3c8-de0c-345f-82ec-04d62e86e4a1" type="Text">
+                    Required diagnostic data could include, for example, information about the version of Office installed on the device or include information that indicates that Office applications are crashing when trying to open documents. Optional diagnostic data could include information about the time it takes to save a document, which could indicate an issue specific to saving to your device.</para>
+    <para srcId="4e956807-2384-6a4b-4d99-3bbc9ae6994d" type="Text">
+                    If you choose to send us optional diagnostic data, required diagnostic data is also included.</para>
+    <para srcId="c7f6babe-b671-4773-e0ca-21a5bd3392eb" type="Text">
+                    As an admin for your organization, you’ll be able to use a policy setting to choose which level of diagnostic data is sent to us. Optional diagnostic data will be sent to Microsoft unless you change the setting. Providing optional diagnostic data better enables the Office engineering team at Microsoft to detect, diagnose, and mitigate issues to reduce impacts to your organization.</para>
+    <para srcId="4cc3c0d0-c6d5-4d16-ad8e-bca4e698202a" type="Text">
+                    Your users won’t be able to change the diagnostic data level for their devices if they are signed in to Office with their organizational credentials, which is sometimes referred to as a work or school account.</para>
+    <para srcId="e141a267-c415-74be-ff0c-46cb298dcff7" type="Text">
+                    This diagnostic data doesn’t include names of users, their email addresses, or the content of their Office files. Our system creates a unique ID that it associates with your user’s diagnostic data. When we receive diagnostic data showing that one of our apps crashed 100 times, this unique ID lets us determine if it was a single user who crashed 100 times or if it was 100 different users who each crashed once. We don’t use this unique ID to identify a specific user.</para>
+    <para srcId="56bb83ae-0337-cbea-0045-f51084169951" type="Text">
+                    To see what diagnostic data is being sent to Microsoft, you can use the Diagnostic Data Viewer, which you can download and install for free from the Microsoft Store.</para>
+    <para srcId="8f5515b4-a49b-aab2-8bdf-128e618a2ac5" type="Text">
+                    For more information, see the following: </para>
+    <para srcId="b1674829-97cb-6ce9-19f1-b9059be69bfb" type="Text">Connected experiences for Office 365 ProPlus
+				</para>
+    <para srcId="8d2751ce-32c8-1fa6-0537-22e4562a5735" type="Text">
+                    Office 365 ProPlus consists of client software applications and connected experiences designed to enable you to create, communicate, and collaborate more effectively. Working with others on a document stored on OneDrive for Business or translating the contents of a Word document into a different language are examples of connected experiences.
+                </para>
+    <para srcId="de58fbca-54fb-b29f-dcda-1e6be1d99b39" type="Text">
+                    We understand that you might want to choose which types of connected experiences are available to your users when working in Office applications. As an admin for your organization, you’ll have policy settings that allow you to choose whether to provide the following types of connected experiences to your users:
+                </para>
+    <para srcId="d41c4a9c-968d-8f63-550b-9244b5f82f32" type="Text">Experiences that analyze your content</para>
+    <para srcId="3a0fc425-2702-66b3-9c98-a2caaaffb905" type="Text"> Experiences that use your Office content to provide you with design recommendations, editing suggestions, data insights, and similar features. For example, PowerPoint Designer or Editor in Word.</para>
+    <para srcId="b5885439-e712-05e5-ab24-c6538cef9b14" type="Text">Experiences that download online content</para>
+    <para srcId="734bb09a-da4e-f00e-98bc-458625ceaedf" type="Text"> Experiences that allow you to search and download online content including templates, images, 3D models, videos, and reference materials to enhance your documents. For example, Office templates or PowerPoint QuickStarter.</para>
+    <para srcId="371f7842-dc1f-265e-10a9-18b0a7b3ee5c" type="Text">
+                    For example, you might choose to provide your users with connected experiences that download online content, but not connected experiences that analyze content. If you don’t configure these policy settings, all these connected experiences will be available to your users.
+                </para>
+    <para srcId="db3c1245-8810-ebdf-cf88-4d5dfd4a1760" type="Text">
+                    In addition, there is a policy setting that allows you turn off all these connected experiences, and which will also turn off other connected experiences, such as document co-authoring and online file storage. But even if you use this policy setting to turn off all these connected experiences, certain Office functionality will remain available, such as synching your mailbox in Outlook, using Teams or Skype for Business, as well as the essential services described below.</para>
+    <para srcId="6a5e541c-204c-646f-3e99-f03c3eb0d372" type="Text">
+					If you choose not to provide your users with certain types of connected experiences, either the ribbon or menu command for those connected experiences will be grayed out or the users will get an error message when they try to use those connected experiences.
+				</para>
+    <para srcId="35c21c7a-9ad6-943b-6e4e-05f4f9f5d73a" type="Text">
+					Your users won’t be able to choose whether to turn these connected experiences on or off if they are signed in to Office with their organizational credentials, which is sometimes referred to as a work or school account.
+				</para>
+    <para srcId="8f5515b4-a49b-aab2-8bdf-128e618a2ac5" type="Text">
+					For more information, see the following:
+				</para>
+    <para srcId="a465eed9-2f23-d4bf-6772-fce5aa71d318" type="Text">
+                    Optional connected experiences for Office 365 ProPlus
+                </para>
+    <para srcId="2cf4132e-9fe6-9b7e-762a-95509226ecea" type="Text">
+                    In addition to the connected experiences mentioned above that are included with Office 365 ProPlus, there are optional connected experiences that you may choose to allow your users to access with their organization account. For example, the LinkedIn features of the Resume Assistant in Word or the 3D Maps feature in Excel, which uses Bing.
+                </para>
+    <para srcId="d358da94-1685-6c7d-46e4-853470c32765" type="Text">
+                    These are optional connected experiences that are not covered by your organization’s commercial agreement with Microsoft but are governed by separate terms and conditions. Optional connected experiences offered by Microsoft directly to your users are governed by the </para>
+    <para srcId="3404a334-6937-d369-2038-68d9e851acf1" type="Text"> instead of the </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="e2eb841e-d3cd-c562-d21a-bed11755041c" type="Text">
+					Because these optional connected experiences are governed by separate terms and conditions, you manage them separately from the connected experiences mentioned above. As an admin for your organization, you’ll be able to use a policy setting to choose whether to make these optional connected experiences available, as a group, to your users. If you don’t configure this policy setting, these optional connected experiences are available to your users.
+				</para>
+    <para srcId="b84a74bd-31e2-eee5-500a-7d6e7578071f" type="Text">
+					Even if you choose to make these optional connected experiences available to your users, your users will have the option to turn these optional connected experiences off as a group by going to </para>
+    <para srcId="8291270b-ff90-2353-bea1-e3b78a9cf04e" type="Text">File</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="c740bd08-3054-ad07-06e4-fce31618f6ec" type="Text">Account</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="e849c8b0-7e00-d9ea-07ed-1153cb7b24dc" type="Text">Account Privacy</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="52c18b56-c8bc-6f41-3670-fc8ca573c22d" type="Text">Manage Settings</para>
+    <para srcId="a7906b72-86f5-58ba-b26b-8cba9ed9df00" type="Text">. Your users will only have this choice if they are signed in to Office with their organizational credentials (sometimes referred to as a work or school account), not if they are signed in with a personal email address.
+				</para>
+    <para srcId="8f5515b4-a49b-aab2-8bdf-128e618a2ac5" type="Text">
+					For more information, see the following:
+				</para>
+    <para srcId="5a1046ee-63c5-ccd3-ba79-bb6d44b00d07" type="Text">Required service data for connected experiences</para>
+    <para srcId="464322bc-8b00-da2b-5427-9cb8df44b0d6" type="Text">Required service data is data that enables us to deliver these cloud-based connected experiences and help make these experiences secure and perform as expected. Three types of information make up required service data.
+                </para>
+    <para srcId="2ace6c67-8eec-a2e7-f9f0-529d25448da7" type="Text">Customer content</para>
+    <para srcId="d353a8b1-7205-079c-d102-5654db9c7d9c" type="Text">, which is content you create using Office, such as text typed in a Word document.</para>
+    <para srcId="89ecf7de-5f17-7c25-d08b-3939e05ba8a6" type="Text">Functional data</para>
+    <para srcId="02c74d3c-594e-af20-ccf1-89b8c215d508" type="Text">, which includes information needed by a connected experience to perform its task, such as configuration information about the app.</para>
+    <para srcId="638424b9-3f9b-8ffb-696c-37333d024e0e" type="Text">Service diagnostic data</para>
+    <para srcId="eff6e2d3-8d38-73cb-9b2f-829e91d63b29" type="Text">, which is the data necessary to keep the service secure, up to date, and performing as expected. Because this data is strictly related to the connected experience, it is separate from required or optional diagnostic data levels.</para>
+    <para srcId="6f36ebfb-811d-1d98-80f0-a9bb3140b029" type="Text">To help you understand required service data, the following is an example scenario using PowerPoint Designer, which is a connected experience you can use when creating slides for a presentation. PowerPoint Designer helps you improve your slides by automatically generating design ideas to choose from. While you're putting content on a slide, Designer works in the background to match that content to professionally designed layouts.
+                </para>
+    <para srcId="a6555936-6e6f-e432-5ae5-364d01bb6aa2" type="Text">The required service data that is sent to Microsoft to enable this connected experience for you could include the following:
+                </para>
+    <para srcId="2ace6c67-8eec-a2e7-f9f0-529d25448da7" type="Text">Customer content</para>
+    <para srcId="e77fe193-c54a-664c-9136-84036507c02b" type="Text">, such as the text or images you added to your slide.</para>
+    <para srcId="89ecf7de-5f17-7c25-d08b-3939e05ba8a6" type="Text">Functional data</para>
+    <para srcId="d9a7360a-78cc-fb64-53ec-a6ff763eb4be" type="Text">, such as which slide you are working on and its layout.</para>
+    <para srcId="638424b9-3f9b-8ffb-696c-37333d024e0e" type="Text">Service diagnostic data</para>
+    <para srcId="90e94996-ae23-8545-3afe-3aabf97b4985" type="Text">, such as events that tell us if the design idea was correctly applied to your slide and that the service calls were performing correctly.</para>
+    <para srcId="2d42c430-0b8b-6afa-f1c7-55a8ff008edc" type="Text">
+					If you choose not to provide your users with the category of connected experiences that includes PowerPoint Designer, the feature will be turned off and none of this required service data is sent to us.
+                </para>
+    <para srcId="dd87730f-455f-23ee-aed9-18c34f24513e" type="Text">
+                    For more information, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="739f2b3d-d5d7-d6c1-873a-568d1c56d2c2" type="Text">Essential services for Office 365 ProPlus</para>
+    <para srcId="32d5b809-cf0e-9199-759d-e494679c5b5e" type="Text">
+					There are also a set of services that are essential to how Office 365 ProPlus functions and cannot be disabled. For example, the licensing service that confirms that you are properly licensed to use Office 365 ProPlus. Required service data about these services is collected and sent to Microsoft, regardless of any other policy settings that you have configured.
+                </para>
+    <para srcId="dd87730f-455f-23ee-aed9-18c34f24513e" type="Text">
+                    For more information, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="42057e9d-9b45-f960-8e1d-8529e2c87e4e" type="Text">Related topics</para>
+    <para srcId="ca89e486-6e47-5362-881c-bcf307284d19" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/required-diagnostic-data</para>
+    <para srcId="3d6f92d7-0fb6-dde2-3eb5-3b37744cc909" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/optional-diagnostic-data</para>
+    <para srcId="463266dd-8457-4680-b39e-e1b79ca3e421" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/manage-privacy-controls</para>
+    <para srcId="0370623d-c74c-8150-2070-48eefc72a640" type="href">https://support.office.com/article/cf761ce9-d805-4c60-a339-4e07f3182855</para>
+    <para srcId="6b1a8d2f-dd98-9670-001b-b9bee144fc5b" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/connected-experiences</para>
+    <para srcId="463266dd-8457-4680-b39e-e1b79ca3e421" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/manage-privacy-controls</para>
+    <para srcId="81293807-0135-65db-d1a4-49740f35d90f" type="href">https://www.microsoft.com/servicesagreement</para>
+    <para srcId="07a9c405-d3f5-716c-77f1-7f91497b4307" type="href">https://www.microsoft.com/licensing/product-licensing/products</para>
+    <para srcId="f2d96381-e616-bbb2-213c-793d76741a39" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/optional-connected-experiences</para>
+    <para srcId="463266dd-8457-4680-b39e-e1b79ca3e421" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/manage-privacy-controls</para>
+    <para srcId="0a5457ee-3dc7-1df1-095f-a7fb7b26714b" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/required-service-data</para>
+    <para srcId="5441da0e-f818-51f1-ce92-705ccf69f941" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/essential-services</para>
+    <para srcId="5df5d6b0-31c0-b104-dbd6-2c63ecb1ba25" type="href">https://privacy.microsoft.com/</para>
+    <para srcId="3e1d596e-3295-8951-6055-86d5b78234d5" type="href">https://docs.microsoft.com/windows/privacy/</para>
+    <para srcId="9ef0d74f-dba8-74f7-fd0d-7a65539c381b" type="text">Required diagnostic data for Office</para>
+    <para srcId="437b4622-7656-d707-c68e-1313dfba8b75" type="text">Optional diagnostic data for Office</para>
+    <para srcId="6bdbf316-a8f6-6b2e-da12-2d9bc9817b5d" type="text">Use policy settings to manage privacy controls for Office 365 ProPlus</para>
+    <para srcId="a1cb84f1-5644-08a5-123e-40a2c668bfd8" type="text">Using the Diagnostic Data Viewer with Office</para>
+    <para srcId="260a4d63-d705-e25b-89e0-74797821c631" type="text">Connected experiences in Office</para>
+    <para srcId="6bdbf316-a8f6-6b2e-da12-2d9bc9817b5d" type="text">Use policy settings to manage privacy controls for Office 365 ProPlus</para>
+    <para srcId="fc16b03f-163d-1c4b-afb9-e9da33a7c1c9" type="text">Microsoft Services Agreement</para>
+    <para srcId="3e67d07b-7519-43e4-1866-a274fe69c19f" type="text">Online Services Terms</para>
+    <para srcId="be3c2743-4464-e944-f6eb-6092eef2c67e" type="text">Overview of optional connected experiences in Office</para>
+    <para srcId="6bdbf316-a8f6-6b2e-da12-2d9bc9817b5d" type="text">Use policy settings to manage privacy controls for Office 365 ProPlus</para>
+    <para srcId="40cfc56f-782b-e9e9-5749-c604c0390a13" type="text">Required service data for Office</para>
+    <para srcId="040cbea8-f3ee-6cdd-3ab8-0616c0d8862e" type="text">Essential services for Office</para>
+    <para srcId="afeac587-6e1c-4668-9713-b4e3001e4a70" type="text">Privacy at Microsoft</para>
+    <para srcId="9095daba-ab3b-f990-01fb-4db9d34d73ea" type="text">Windows privacy</para>
+  </content>
+</contentPiece>

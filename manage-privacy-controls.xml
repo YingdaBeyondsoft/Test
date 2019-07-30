@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentPiece contentType="contentPiece" p1:lang="en" p2:xsi="http://www.w3.org/2001/XMLSchema-instance" p3:schemaLocation="http://schemas.microsoft.com/maml/2004/10 \\kingkong\root\public\Schema\AML\Win7\Maml.xsd" p2:ns3="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:p3="xsi" xmlns:p2="xmlns" xmlns:p1="xml" xmlns="http://schemas.microsoft.com/maml/2004/10">
+  <content>
+    <para srcId="822ce99d-e9fe-398c-952a-3244be5bc34f">
+      <notLocalizable>1290185c-dcaf-488d-b38a-79d52735e6c6</notLocalizable>
+    </para>
+    <para srcId="7c5a65b6-627c-c5ea-f868-4f18b7e1e9f5">
+      <notLocalizable>1ec06392-87e2-4400-99c4-1c93c512c83e</notLocalizable>
+    </para>
+    <para srcId="9e6d21fb-9187-3ce6-8d12-bdc420956839">
+      <notLocalizable>en-us</notLocalizable>
+    </para>
+    <para srcId="e2cc9d59-8a99-406b-b1e3-8e8c6006cb0a">
+      <notLocalizable>Page</notLocalizable>
+    </para>
+    <para srcId="d7b1dc6c-8af5-44f7-bead-adbcea311c96">Use policy settings to mange privacy controls for Office 365 ProPlus - Microsoft Privacy</para>
+    <para srcId="144b411f-0b3e-4bf2-ba7e-6ba40ee5acef">Mange privacy controls for Office 365 ProPlus</para>
+    <para srcId="6bdbf316-a8f6-6b2e-da12-2d9bc9817b5d" type="Text">Use policy settings to manage privacy controls for Office 365 ProPlus</para>
+    <para srcId="0f2fcefa-a84c-1ea5-27aa-3990aee09e35" type="Text">
+                    Microsoft is committed to providing you with the information and controls you need to make choices about how your data is collected and used when you’re using Office 365 ProPlus.</para>
+    <para srcId="5d953a33-fb47-9fdf-b7df-8f1b28738e10" type="Text">
+                    Starting with Version 1904 of Office 365 ProPlus, there are new policy settings that will allow you to control settings related to the following:</para>
+    <para srcId="d71636b7-c090-5968-843a-1c207395247c" type="Text">Diagnostic data</para>
+    <para srcId="755579ca-8159-fdc4-e07a-98e98ddae72a" type="Text"> that is collected and sent to Microsoft about Office client software being used</para>
+    <para srcId="8d4a8613-8276-4662-a9fa-c6362eb7c004" type="Text">Connected experiences</para>
+    <para srcId="ec0cdb13-addd-e4a1-d59e-aba22ebd68a7" type="Text"> that use cloud-based functionality to provide enhanced Office features to you and your users.</para>
+    <para srcId="b9a7015a-437c-7bc3-0fb9-d4343ed1605f" type="Text">
+                    The following are the five new policy settings:</para>
+    <para srcId="92d13e5f-005e-88bf-96b2-bc284c1412cc" type="Text">Configure the level of client software diagnostic data sent by Office to Microsoft</para>
+    <para srcId="fa18674f-8a76-bee5-ffcf-05c21966e4e8" type="Text">Allow the use of connected experiences in Office that analyze content </para>
+    <para srcId="0bdd91e5-5d0b-53c3-cd8d-73b479f9ea9e" type="Text">Allow the use of connected experiences in Office that download online content </para>
+    <para srcId="6e4a31aa-db65-30e5-c733-c3f5cc23e483" type="Text">Allow the use of additional optional connected experiences in Office </para>
+    <para srcId="5cb74461-9113-c9eb-ca72-43457dda279f" type="Text">Allow the use of connected experiences in Office</para>
+    <para srcId="2b529cc7-2131-e3f7-7775-395ef8e9a492" type="Text">
+                    These policy settings can be implemented by using either Group Policy or the </para>
+    <para srcId="7e002369-76bd-8fd4-0e20-1517caa6f1b5" type="Text">. If you’re using Group Policy, you need to download the most current version of the Administrative Template files (ADMX/ADML) from the </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">. </para>
+    <para srcId="bd6f4368-3858-aad7-0a4c-a98db8bb34c3" type="Text">
+                    If you’re using the Group Policy Management tool, all these policy settings are located under User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center. </para>
+    <para srcId="8937e33a-e777-62d7-1cbd-b75cf12812b9" type="Text">
+                    These new policy settings also apply to desktop versions of Project and Visio that come with some subscription plans, such as the Project Online Professional plan or Visio Online Plan 2. They also apply to Office 365 Business. </para>
+    <para srcId="5de10568-69dd-bbcc-49a6-76fb3994f7cc" type="Text">
+                    There are also some existing policy settings that will no longer apply to Office 365 ProPlus, and there are some user interface (UI) changes for privacy settings that you should be aware of because your users might notice those changes and ask about them. </para>
+    <para srcId="81f696f8-7281-01ca-5dc8-a66ba79e002c" type="Text">
+                    As with any new policy settings, you should carefully test them out in a limited, controlled environment to ensure the settings you configure have the desired effect before you implement the policy settings more widely in your organization.</para>
+    <para srcId="66daa34e-0085-c9a6-42dc-36a8aee0734a" type="Text">
+                    Policy setting for diagnostic data</para>
+    <para srcId="0a6fe7ce-6ab1-33ef-40fc-7e316e7a9542" type="Text">
+                    Diagnostic data is used to keep Office secure and up-to-date, detect, diagnose and remediate problems, and also make product improvements.</para>
+    <para srcId="ec66a0ce-48e7-77b1-55e4-44a21a9e74d1" type="Text">
+                    You can use the </para>
+    <para srcId="92d13e5f-005e-88bf-96b2-bc284c1412cc" type="Text">Configure the level of client software diagnostic data sent by Office to Microsoft</para>
+    <para srcId="58413101-2667-17d0-bf02-576add3e3757" type="Text"> policy setting to choose what level of diagnostic data is sent to Microsoft.</para>
+    <para srcId="33b42565-9a77-89f0-292d-d389bb782a93" type="Text">
+                    If you enable this policy setting, you must choose which level of diagnostic data is sent to Microsoft. Your choices are Required, Optional, or Neither.</para>
+    <para srcId="6e36368c-9f53-0fa0-6111-d49e4c8be41d" type="Text">If you choose </para>
+    <para srcId="dbef51b6-a598-bdd6-2b39-35d0c3f4a5e2" type="Text">Required</para>
+    <para srcId="a48ba24e-8156-4152-ee0f-5c516da4e173" type="Text">, the minimum data necessary to help keep Office secure, up-to-date, and performing as expected on the device it’s installed on is sent to Microsoft. </para>
+    <para srcId="6e36368c-9f53-0fa0-6111-d49e4c8be41d" type="Text">If you choose </para>
+    <para srcId="9561b0eb-043c-b254-c8ee-7b0ac615ebcd" type="Text">Optional</para>
+    <para srcId="ef2971ea-e85d-db4d-6700-9185339acc93" type="Text">, additional data that helps make product improvements and provides enhanced information to help detect, diagnose, and remediate issues is sent to Microsoft. </para>
+    <para srcId="6e36368c-9f53-0fa0-6111-d49e4c8be41d" type="Text">If you choose </para>
+    <para srcId="7608e672-080a-2176-cc6f-67517b2de8eb" type="Text">Neither</para>
+    <para srcId="0b1d0e8c-1ded-d6ba-c347-c764b27885ac" type="Text">, no diagnostic data about Office client software running on the user’s device is sent to Microsoft. This option, however, significantly limits Microsoft’s ability to detect, diagnose, and remediate problems that your users may encounter when using Office. </para>
+    <para srcId="b28f6a35-5c55-34f9-5bad-7c4b454acd86" type="Text">
+                    If you disable or don’t configure this policy setting, both optional and required diagnostic data is sent to Microsoft.</para>
+    <para srcId="bf9e5f68-8c46-cc44-ea10-98b70a09d015" type="Text">
+                    For more information about diagnostic data, see the following:</para>
+    <para srcId="1ff336db-49f9-f5e9-7749-cbf6d01a2a2b" type="Text">Policy settings for connected experiences</para>
+    <para srcId="8d2751ce-32c8-1fa6-0537-22e4562a5735" type="Text">
+                    Office 365 ProPlus consists of client software applications and connected experiences designed to enable you to create, communicate, and collaborate more effectively. Working with others on a document stored on OneDrive for Business or translating the contents of a Word document into a different language are examples of connected experiences. </para>
+    <para srcId="c811e491-b0f3-0bec-5bfe-0a49620eb53b" type="Text">
+                    We understand that you might want to choose which types of connected experiences are available to your users when they’re working in Office applications. So we have provided four new policy settings for you: </para>
+    <para srcId="fa18674f-8a76-bee5-ffcf-05c21966e4e8" type="Text">Allow the use of connected experiences in Office that analyze content </para>
+    <para srcId="0bdd91e5-5d0b-53c3-cd8d-73b479f9ea9e" type="Text">Allow the use of connected experiences in Office that download online content </para>
+    <para srcId="6e4a31aa-db65-30e5-c733-c3f5cc23e483" type="Text">Allow the use of additional optional connected experiences in Office </para>
+    <para srcId="5cb74461-9113-c9eb-ca72-43457dda279f" type="Text">Allow the use of connected experiences in Office</para>
+    <para srcId="532488c1-9a58-fcce-af28-5bf58f3eb743" type="Text">
+                    If you don't configure these policy settings, all connected experiences are available. This gives your users all the features and functionality accessible through Office 365 ProPlus. But we understand that you might need to turn off some or all of these connected experiences to meet certain requirements of your organization.</para>
+    <para srcId="d984b90a-b01a-37a0-bdf6-92bf0e73c349" type="Text">Important</para>
+    <para srcId="e550ea97-ccce-b9c2-c113-4e8234feeedd" type="Text">
+                        An issue related to disabling these 4 policy settings was recently fixed by publishing new Administrative Template files (ADMX/ADML) on Tuesday May 28, 2019. Be sure to download and install the updated Group Policy files from the </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.</para>
+    <para srcId="7a09b6d8-474d-e872-b4bc-9c3795eaec99" type="Text">
+                    If you choose not to provide your users with certain types of connected experiences, either the ribbon or menu command for those connected experiences will be grayed out or users will get an error message when they try to use those connected experiences. In that case, no </para>
+    <para srcId="ec184e8a-8ac4-af76-83c8-282a8b471cc3" type="Text"> for those connected experiences will be sent to Microsoft.
+                </para>
+    <para srcId="40524282-9bd6-ed56-c0d8-793e7ebcd4c1" type="Text">
+                    Your users won’t be able to choose whether to turn these connected experiences included with Office 365 ProPlus on or off if they are signed into Office with their organizational credentials, which is sometimes referred to as a work or school account.
+                </para>
+    <para srcId="b0cd737f-4cb5-1655-4ac5-4cc6e4b1c27f" type="Text">Policy setting for connected experiences that analyze your content</para>
+    <para srcId="43912372-15d8-3d12-a9a3-6df44a184fff" type="Text">
+                    These are experiences that use your Office content to provide you with design recommendations, editing suggestions, data insights, and similar features. For example, PowerPoint Designer or Editor in Word. For a list of these connected experiences, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="ec66a0ce-48e7-77b1-55e4-44a21a9e74d1" type="Text">
+                    You can use the </para>
+    <para srcId="238ca022-e4d2-aed9-2f60-f0263e71a56e" type="Text">Allow the use of connected experiences in Office that analyze</para>
+    <para srcId="fe7393ee-860c-90a6-bca4-7c4e5dc1360d" type="Text"> content policy setting to control whether these types of connected experiences are available to your users. If you don’t configure this policy setting, these connected experiences will be available to your users.
+                </para>
+    <para srcId="13cec499-b442-187c-0491-4d34997a4cfe" type="Text">
+                    Note that if you disable the </para>
+    <para srcId="5cb74461-9113-c9eb-ca72-43457dda279f" type="Text">Allow the use of connected experiences in Office </para>
+    <para srcId="ab5efa76-4ff9-9ab9-64ed-9f383b8be9c0" type="Text"> policy setting, connected experiences that analyze content won’t be available to your users.</para>
+    <para srcId="45916a80-34de-0da3-7992-30bef93c66d1" type="Text">
+                    Policy setting for connected experiences that download online content 
+                </para>
+    <para srcId="b561e795-d678-61eb-6349-140b4d289893" type="Text">
+                    These are experiences that allow you to search and download online content including templates, images, 3D models, videos, and reference materials to enhance your documents. For example, Office templates or PowerPoint QuickStarter. For a list of these connected experiences, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="ec66a0ce-48e7-77b1-55e4-44a21a9e74d1" type="Text">
+                    You can use the </para>
+    <para srcId="0bdd91e5-5d0b-53c3-cd8d-73b479f9ea9e" type="Text">Allow the use of connected experiences in Office that download online content</para>
+    <para srcId="3a3e9780-1be3-48ee-f2d4-25ae41690760" type="Text"> policy setting to control whether these types of connected experiences are available to your users. If you don’t configure this policy setting, these connected experiences will be available to your users.
+                </para>
+    <para srcId="13cec499-b442-187c-0491-4d34997a4cfe" type="Text">
+                    Note that if you disable the </para>
+    <para srcId="5cb74461-9113-c9eb-ca72-43457dda279f" type="Text">Allow the use of connected experiences in Office</para>
+    <para srcId="2484651d-ed22-6a6b-2c79-e3aed1740add" type="Text"> policy setting, connected experiences that download online content won’t be available to your users.</para>
+    <para srcId="9e29438e-de53-d747-8020-0f869d681998" type="Text">Policy setting for optional connected experiences </para>
+    <para srcId="963c803e-d9a3-ea12-1e1e-b608bcbfc528" type="Text">In addition to the connected experiences mentioned above that are included with Office 365 ProPlus, there are some optional connected experiences that you may choose to allow your users to access with their organization account. For example, the LinkedIn features of the Resume Assistant in Word or the 3D Maps feature in Excel, which uses Bing. For more examples, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="4cbb8c15-b0d6-6582-3608-065b9fe8335e" type="Text">
+                    These connected experiences are different because they are not covered by your organization’s commercial agreement with Microsoft. Optional connected experiences are offered by Microsoft directly to your users and are governed by the </para>
+    <para srcId="3404a334-6937-d369-2038-68d9e851acf1" type="Text"> instead of the </para>
+    <para srcId="893abc02-8c10-330e-5ffe-a9f8bc318119" type="Text">. In some cases, third party content or functionality are provided through these optional connected experiences and other terms may also apply. For more information, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="ec66a0ce-48e7-77b1-55e4-44a21a9e74d1" type="Text">
+                    You can use the </para>
+    <para srcId="6e4a31aa-db65-30e5-c733-c3f5cc23e483" type="Text">Allow the use of additional optional connected experiences in Office</para>
+    <para srcId="71db4edc-8589-113b-9164-f71dcdf4051b" type="Text"> policy setting to control whether these types of connected experiences are available to your users. If you don’t configure this policy setting, these optional connected experiences will be available to your users.
+                </para>
+    <para srcId="29955c88-e613-f3b8-4494-2c080b7ebd6f" type="Text">
+                    Even if you choose to make these optional connected experiences available to your users, your users will have the option to turn them off as a group by going to </para>
+    <para srcId="8291270b-ff90-2353-bea1-e3b78a9cf04e" type="Text">File</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="c740bd08-3054-ad07-06e4-fce31618f6ec" type="Text">Account</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="e849c8b0-7e00-d9ea-07ed-1153cb7b24dc" type="Text">Account Privacy</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="52c18b56-c8bc-6f41-3670-fc8ca573c22d" type="Text">Manage Settings</para>
+    <para srcId="51ae0c33-6b6d-9bd6-b41d-4876e5a11339" type="Text">. Your users will only have this choice if they are signed into Office with their organizational credentials (sometimes referred to as a work or school account), not if they are signed in with a personal email address.
+                </para>
+    <para srcId="409c1b96-851f-4b22-29df-c22575a930f3" type="Text">
+                    Also, some of these optional connected experiences are also considered to be connected experiences that analyze content or that download online content. For example, Insert Online Pictures is an optional connected experience, powered by Microsoft Bing, but it’s also considered to be a connected experience that downloads online content. Therefore, if you disable the </para>
+    <para srcId="0bdd91e5-5d0b-53c3-cd8d-73b479f9ea9e" type="Text">Allow the use of connected experiences in Office that download online content</para>
+    <para srcId="80bc343b-0059-2579-1e76-7be314889093" type="Text"> policy setting, Insert Online Pictures won’t be available to your users. It won’t be available even if you have enabled the </para>
+    <para srcId="6e4a31aa-db65-30e5-c733-c3f5cc23e483" type="Text">Allow the use of additional optional connected experiences in Office</para>
+    <para srcId="15fa56be-dc1c-628d-678e-f477523fb653" type="Text"> policy setting. For more information about which connected experiences analyze content or download online content, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="a94905b2-38bb-4d4d-3ca2-49f3b809f646" type="Text">
+                    There is one exception to take note of. </para>
+    <para srcId="33d7320b-997a-b9a6-f6e7-f46e54cb2618" type="Text">The Allow the use of additional optional connected experiences in Office</para>
+    <para srcId="93f7b225-0bdd-0b2a-73b5-f28b04082e7f" type="Text"> policy setting does not control experiences that require you to connect your LinkedIn account to your Microsoft work or school account. To control these type of experiences, such as the LinkedIn information on a </para>
+    <para srcId="a2800732-c999-523c-723f-e62284a140b8" type="Text"> in Outlook, see </para>
+    <para srcId="375d5dbe-2d54-f975-3a87-094459f76678" type="Text"> and 
+</para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.</para>
+    <para srcId="9f34be58-8c2f-d862-ef33-2057dd696cbd" type="Text">Policy setting for most connected experiences </para>
+    <para srcId="ec66a0ce-48e7-77b1-55e4-44a21a9e74d1" type="Text">
+                    You can use the </para>
+    <para srcId="b93532c8-bd4b-1185-7d74-4c50916c7d16" type="Text">Allow the use of connected experiences in Office policy setting</para>
+    <para srcId="3668dcae-19b5-5941-cb3b-4e62e6c92d7f" type="Text"> to control whether most connected experiences accessible through Office 365 ProPlus are available to your users. If you disable the policy setting, the following types of connected experiences won’t be available to your users:
+                </para>
+    <para srcId="d41c4a9c-968d-8f63-550b-9244b5f82f32" type="Text">Experiences that analyze your content </para>
+    <para srcId="b5885439-e712-05e5-ab24-c6538cef9b14" type="Text">Experiences that download online content </para>
+    <para srcId="0990a86f-3efe-420b-3651-0db46351145b" type="Text">Optional connected experiences </para>
+    <para srcId="f1d5f72b-c44f-91a2-2a04-69022191ef34" type="Text">
+                    In addition, if you disable this policy setting, most other connected experiences are also turned off, such as co-authoring and online file storage. For a list of these other connected experiences, see </para>
+    <para srcId="aff15850-8883-3f63-609c-adb75a75dc9d" type="Text">.
+                </para>
+    <para srcId="bd54ac6b-14d7-a9d9-d2f3-736c1a067062" type="Text">
+                    But even if you disable this policy setting, limited Office functionality will remain available, such as synching a mailbox in Outlook, and Teams and Skype for Business will continue to work. </para>
+    <para srcId="23f308d6-eb5e-65a0-cf23-a5f0d44bb478" type="Text">, such as the licensing service that confirms that you’re properly licensed to use Office, will also remain available.</para>
+    <para srcId="53935130-48fc-bb81-e00f-1b0d33ff0076" type="Text">Existing policy settings that are replaced by new policy settings </para>
+    <para srcId="d9c70042-73d3-9611-fb50-b799bf86db27" type="Text">
+                    There are two existing policy settings that are no longer applicable to Office 365 ProPlus, starting with Version 1904. Those policy settings are the following:
+                </para>
+    <para srcId="9823a1b3-6ffc-392c-8f71-f86cb963d062" type="Text">Send personal information</para>
+    <para srcId="001c9c41-9243-d18e-a68a-1f6db075e234" type="Text">, which can be found under User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Privacy\Trust Center. </para>
+    <para srcId="a0bea378-3bad-4254-7dfe-187a4a447f68" type="Text">Online Content Options</para>
+    <para srcId="606b105d-29a5-d1fd-7c79-a6801550d593" type="Text">, which can be found under User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Tools | Options | General | Service Options...\Online Content. </para>
+    <para srcId="fd1c7429-0a40-9469-3d98-0663c42737e5" type="Text">
+                    Starting with Version 1904, configuring these two existing policy settings will have no effect on Office 365 ProPlus. They are no longer applicable because their functionality is replaced by these new policy settings:
+                </para>
+    <para srcId="fa18674f-8a76-bee5-ffcf-05c21966e4e8" type="Text">Allow the use of connected experiences in Office that analyze content </para>
+    <para srcId="0bdd91e5-5d0b-53c3-cd8d-73b479f9ea9e" type="Text">Allow the use of connected experiences in Office that download online content </para>
+    <para srcId="6e4a31aa-db65-30e5-c733-c3f5cc23e483" type="Text">Allow the use of additional optional connected experiences in Office </para>
+    <para srcId="5cb74461-9113-c9eb-ca72-43457dda279f" type="Text">Allow the use of connected experiences in Office </para>
+    <para srcId="f16b2298-63fd-4313-10fa-4fc06d3e1bed" type="Text">
+                    These new policy settings can give you a finer level control than the two existing policy settings. For example, previously if you used the </para>
+    <para srcId="9823a1b3-6ffc-392c-8f71-f86cb963d062" type="Text">Send personal information</para>
+    <para srcId="75f181ac-a9a5-a876-980e-22482e4b70a6" type="Text"> policy setting, both PowerPoint QuickStarter and Smart Lookup would be turned off. But now, with the new policy settings, if you use the </para>
+    <para srcId="fa18674f-8a76-bee5-ffcf-05c21966e4e8" type="Text">Allow the use of connected experiences in Office that analyze content</para>
+    <para srcId="9f2b3fb2-617a-85c6-6705-7a5c32ca0005" type="Text"> policy setting to turn off that type of connected experiences, only Smart Lookup is turned off. PowerPoint QuickStarter will still be available to your users.
+                </para>
+    <para srcId="2f431bec-d684-4ee1-7b32-c13ad5300f88" type="Text">
+                    The policy settings still appear in the Group Policy Management tool because they are still applicable to volume licensed versions of Office 2016 and Office 2019, such as Office Professional Plus 2019.</para>
+    <para srcId="5ac695b7-51e1-35e2-c04b-4012572306ce" type="Text">
+                    What about existing policy settings that control connected experiences?
+                </para>
+    <para srcId="30cb029b-1ac4-8f22-236e-38879b9cf44e" type="Text">
+                    As you probably already know, there are some existing policy settings that allow you to control connected experiences. Here are a few examples of existing policy settings:
+                </para>
+    <para srcId="1792dce9-9375-3d62-af9a-8d1bbad06d15" type="Text">PowerPoint Designer Options</para>
+    <para srcId="f5882c78-8b3c-54af-3a16-684792108d42" type="Text">, under User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Tools | Options | General | Service Options...\PowerPoint Designer </para>
+    <para srcId="94f483b4-1b00-1c26-eb01-a7c58bd4e141" type="Text">Turn off QuickStarter</para>
+    <para srcId="a30031f2-5638-d502-a87d-32dbc50d2685" type="Text">, under User Configuration\Policies\Administrative Templates\Microsoft PowerPoint 2016\PowerPoint Options\General </para>
+    <para srcId="f69ec3ed-34f5-03ff-9d78-5249c916afe4" type="Text">Allow LinkedIn Resume Assistant feature</para>
+    <para srcId="845b6fd8-eca9-adb5-9c4a-0e1f81f14b0d" type="Text">, under User Configuration\Policies\Administrative Templates\Microsoft Word 2016\Word Options\General </para>
+    <para srcId="2872f05e-b61d-e31c-ff21-9b1fd90edfac" type="Text">
+                    You can still use these existing policy settings if you want to turn off individual connected experiences. But keep in mind that if you use one of the new policy settings, that new policy setting might turn off a connected experience that you turned on by using a different policy setting. For example, if you enable the </para>
+    <para srcId="f69ec3ed-34f5-03ff-9d78-5249c916afe4" type="Text">Allow LinkedIn Resume Assistant feature</para>
+    <para srcId="7d286453-0dce-55c7-c869-6a2bc11f194f" type="Text"> policy setting, but disable the </para>
+    <para srcId="5cb74461-9113-c9eb-ca72-43457dda279f" type="Text">Allow the use of connected experiences in Office</para>
+    <para srcId="85c3a54a-341f-b427-6ea6-e228a2358b04" type="Text"> policy setting, the LinkedIn Resume Assistant won’t be available to your users.
+                </para>
+    <para srcId="3476c636-ee63-7efb-121e-b1d6e2623d60" type="Text">
+                    In general, if one policy setting is configured to turn on a specific connected experience while at the same time another policy setting is configured to turn off that type of connected experience, then that specific connected experience is turned off for your users.</para>
+    <para srcId="46da20bb-7460-9ff6-b74f-95760754cdfe" type="Text">Privacy related changes to the Office UI </para>
+    <para srcId="42e91cae-9bdd-3387-f368-d19524521624" type="Text">
+                    There are some changes to the user interface (UI) of Office 365 ProPlus related to privacy that your users might notice and ask about. These changes are a direct result of the new privacy controls and policy settings available starting in Version 1904.
+                </para>
+    <para srcId="6d20c164-d4a6-7500-596b-dea12999a58c" type="Text">
+                    Dialog about optional connected experiences
+                </para>
+    <para srcId="4e90b886-78a9-6f6c-121b-3cb1a6c262f4" type="Text">
+                    If you have chosen to provide your users with </para>
+    <para srcId="47d193ab-42a5-6b67-ef99-af0e6933dd57" type="Text">, the first time your users open an Office app after they've been updated to Version 1904, an informational dialog box will appear. This dialog box informs your users that you have given them the choice to use these optional connected experiences and lets them know they can go to </para>
+    <para srcId="8291270b-ff90-2353-bea1-e3b78a9cf04e" type="Text">File</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="c740bd08-3054-ad07-06e4-fce31618f6ec" type="Text">Account</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="e849c8b0-7e00-d9ea-07ed-1153cb7b24dc" type="Text">Account Privacy</para>
+    <para srcId="8a76c8a2-b44b-15a0-6308-3c13ed9ff0f1" type="Text"> to change this setting.
+                </para>
+    <para srcId="e6e14bcf-12c6-c3be-bafe-992003dbc99b" type="Text">
+                    Privacy settings removed from the Office UI
+                </para>
+    <para srcId="11fc78f2-89a7-c01d-c086-a112ba28e207" type="Text">
+                    The following settings are removed from </para>
+    <para srcId="8291270b-ff90-2353-bea1-e3b78a9cf04e" type="Text">File</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="e1ace8da-dc8b-c6bc-ae5a-ece263e14fe8" type="Text">Options</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="1a0f74f8-df33-511d-373d-406115f7a351" type="Text">Trust Center</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="377c6093-b80d-e5eb-7892-25eb80fe84d6" type="Text">Trust Center Settings… </para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text">> </para>
+    <para srcId="a924c49f-f3c9-9114-5f2c-975dd929afc4" type="Text">Privacy Options</para>
+    <para srcId="0fe93a85-5103-4b32-d73e-a615e6487517" type="Text">:
+                </para>
+    <para srcId="953794af-8161-28ae-fb0a-94c5e033b8b9" type="Text">Get designs, information, recommendations, and services by allowing Office to access and make product improvements based on Office content on my device. </para>
+    <para srcId="0c9d7145-a464-764d-6fa7-78c94b49d4fc" type="Text">Let Office connect to online services from Microsoft to provide functionality that’s relevant to your usage and preference. </para>
+    <para srcId="02dcd870-b95a-6089-1368-ea9675330bc6" type="Text">
+                    Also, under </para>
+    <para srcId="8291270b-ff90-2353-bea1-e3b78a9cf04e" type="Text">File</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="e1ace8da-dc8b-c6bc-ae5a-ece263e14fe8" type="Text">Options</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="9277b30d-4c1f-62e7-c625-26131097968f" type="Text">General</para>
+    <para srcId="2a75d087-8072-5277-9040-20b4726fa45d" type="Text">, the choice to enable Office intelligent services is removed.
+                </para>
+    <para srcId="5bf27f9d-6036-c948-ae41-f802842a2d1d" type="Text">
+                    As the admin for your organization, you now control the equivalent settings to these through the new policy settings described earlier.
+                </para>
+    <para srcId="60fb9ec1-cca2-0574-b3e9-d5f22d4f8393" type="Text">
+                    Privacy settings added to the Office UI
+                </para>
+    <para srcId="89c3dd9d-0d33-9278-043d-b23ab294efc0" type="Text">
+                    The following are new elements added to the Office UI:
+                </para>
+    <para srcId="3c2d5502-6b11-968a-f9ff-0001b6ae661c" type="Text">Under </para>
+    <para srcId="8291270b-ff90-2353-bea1-e3b78a9cf04e" type="Text">File</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="c740bd08-3054-ad07-06e4-fce31618f6ec" type="Text">Account</para>
+    <para srcId="73ac22d6-fc2b-c70e-c702-56a6346eb4fb" type="Text">, users will see a new choice for </para>
+    <para srcId="e849c8b0-7e00-d9ea-07ed-1153cb7b24dc" type="Text">Account Privacy</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="52c18b56-c8bc-6f41-3670-fc8ca573c22d" type="Text">Manage Settings</para>
+    <para srcId="6e70aeb6-624d-5707-eb59-59bf100c53fc" type="Text">. It’s under </para>
+    <para srcId="52c18b56-c8bc-6f41-3670-fc8ca573c22d" type="Text">Manage Settings</para>
+    <para srcId="c991bbc8-ec53-8a74-d5cd-5c59dd58d2c1" type="Text"> where users can turn off optional connected experiences, if you have given them that option. </para>
+    <para srcId="3c2d5502-6b11-968a-f9ff-0001b6ae661c" type="Text">Under </para>
+    <para srcId="8291270b-ff90-2353-bea1-e3b78a9cf04e" type="Text">File</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="e1ace8da-dc8b-c6bc-ae5a-ece263e14fe8" type="Text">Options</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="1a0f74f8-df33-511d-373d-406115f7a351" type="Text">Trust Center</para>
+    <para srcId="a08ddfce-6654-54bb-7082-68b3c694a78f" type="Text"> > </para>
+    <para srcId="19d8b7ac-0764-74ab-4ad6-4e9129577e99" type="Text">Trust Center Settings</para>
+    <para srcId="80aeebc0-f577-33f2-939c-62aea7996af1" type="Text">… > </para>
+    <para srcId="a924c49f-f3c9-9114-5f2c-975dd929afc4" type="Text">Privacy Options</para>
+    <para srcId="bbfee27d-6995-d81f-c09f-eda85e927d38" type="Text">, there is an option to enable the use of the </para>
+    <para srcId="1084509a-c7d4-dae5-c9b7-84d772668fbf" type="Text">
+ on the device.</para>
+    <para srcId="ea291e8f-274b-8549-b71a-316f2a846a00" type="Text">
+                    Control privacy settings by editing the registry
+                </para>
+    <para srcId="678c4615-99ba-ab5b-c81b-e0df1f4238b4" type="Text">
+                    Some admins prefer to change settings directly in the registry, for example by using a script, instead of by using Group Policy or the Office cloud policy service. You can use the following information to configure privacy settings directly in the registry.</para>
+    <para srcId="5324979b-e571-cb2f-71aa-5261c998553c" type="Text">Policy setting</para>
+    <para srcId="e5cb1c3b-9112-04d3-9185-3058dd41058b" type="Text">Registry setting</para>
+    <para srcId="00612ac8-ceda-412b-087b-a6cf99a5976a" type="Text">Values</para>
+    <para srcId="92d13e5f-005e-88bf-96b2-bc284c1412cc" type="Text">
+                    Configure the level of client software diagnostic data sent by Office to Microsoft</para>
+    <para srcId="53dc175b-0a65-f35c-1475-b1928f275bd9" type="Text">SendTelemetry</para>
+    <para srcId="bbf3c79a-7073-da49-8d21-fc59759d2183" type="Text">
+                            1=Required
+                            </para>
+    <para srcId="a0b737db-d0dc-7a01-357b-8fd160c2dc28" type="Text">
+                            2=Optional
+                            </para>
+    <para srcId="b0027052-ed51-0b38-9998-9b5f50216aaa" type="Text">
+                            3=Niether
+                            </para>
+    <para srcId="fa18674f-8a76-bee5-ffcf-05c21966e4e8" type="Text">
+                    Allow the use of connected experiences in Office that analyze content</para>
+    <para srcId="53f55771-db40-e775-0587-01746b2e27d6" type="Text">UserContentDisabled</para>
+    <para srcId="09858ed1-472b-37ce-4e33-342600a9702f" type="Text">
+                            1=Enabled
+                            </para>
+    <para srcId="5ddad538-2546-3822-f7f0-9c2d18e5c3fa" type="Text">
+                            2=Disabled
+                            </para>
+    <para srcId="0bdd91e5-5d0b-53c3-cd8d-73b479f9ea9e" type="Text">
+                    Allow the use of connected experiences in Office that download online content</para>
+    <para srcId="20f8beef-3bf1-f1a3-3726-9a0390e2ef58" type="Text">DownloadContentDisabled</para>
+    <para srcId="09858ed1-472b-37ce-4e33-342600a9702f" type="Text">
+                            1=Enabled
+                            </para>
+    <para srcId="5ddad538-2546-3822-f7f0-9c2d18e5c3fa" type="Text">
+                            2=Disabled
+                            </para>
+    <para srcId="6e4a31aa-db65-30e5-c733-c3f5cc23e483" type="Text">
+                    Allow the use of additional optional connected experiences in Office</para>
+    <para srcId="acd765af-7f00-c24c-11d8-9a11be344e22" type="Text">ControllerConnectedServicesEnabled</para>
+    <para srcId="09858ed1-472b-37ce-4e33-342600a9702f" type="Text">
+                            1=Enabled
+                            </para>
+    <para srcId="5ddad538-2546-3822-f7f0-9c2d18e5c3fa" type="Text">
+                            2=Disabled
+                            </para>
+    <para srcId="6e4a31aa-db65-30e5-c733-c3f5cc23e483" type="Text">
+                    Allow the use of additional optional connected experiences in Office</para>
+    <para srcId="8e221052-495e-3e65-4d35-5f5238db263a" type="Text">DisconnectedState</para>
+    <para srcId="09858ed1-472b-37ce-4e33-342600a9702f" type="Text">
+                            1=Enabled
+                            </para>
+    <para srcId="5ddad538-2546-3822-f7f0-9c2d18e5c3fa" type="Text">
+                            2=Disabled
+                            </para>
+    <para srcId="e052c48d-c908-c782-d48a-12f8c68aa1fb" type="Text">To create a .reg file for the privacy settings, open Notepad and copy in the following lines. Adjust the values to suit your needs, and then save the file. Be sure the file name has an extension of .reg</para>
+    <para srcId="61f0cd92-b4aa-a5c8-0e13-dabe10a16f85" type="Text">Windows Registry Editor Version 5.00 </para>
+    <para srcId="492b7749-77f9-8112-6b95-bc58299eeeb4" type="Text">[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\privacy] </para>
+    <para srcId="7a351db5-b374-55b6-85e6-69aa7413d17a" type="Text">"disconnectedstate"=dword:00000001 </para>
+    <para srcId="1fc688b4-f633-4fbf-745a-7d720eb56084" type="Text">"usercontentdisabled"=dword:00000001 </para>
+    <para srcId="f0e556aa-d389-c0f4-9f7d-d28be90741c1" type="Text">"downloadcontentdisabled"=dword:00000001 </para>
+    <para srcId="12d7cb94-f5eb-061f-9825-987e50d71931" type="Text">"controllerconnectedservicesenabled"=dword:00000001 </para>
+    <para srcId="cfc70b3f-0830-f9de-ed1c-4f10dde44b08" type="Text">[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\common\clienttelemetry] </para>
+    <para srcId="e7a1859f-bd07-0a02-1066-707dab7a3027" type="Text">"sendtelemetry"=dword:00000002</para>
+    <para srcId="7b7df272-96e8-4462-65fa-eaee197503df" type="Text">For example, you can use this .reg file with the regedit.exe command in a script to configure privacy settings for the user.</para>
+    <para srcId="0c295476-a6cd-5e4a-9cbf-ae9c20f8e72a" type="href">https://docs.microsoft.com/DeployOffice/overview-office-client-policy-service</para>
+    <para srcId="118574d1-4ca2-99be-5827-6327397dbb1e" type="href">https://www.microsoft.com/download/details.aspx?id=49030</para>
+    <para srcId="a479af6a-5ca9-d8a9-d906-a70a933ab760" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/overview-privacy-controls</para>
+    <para srcId="ca89e486-6e47-5362-881c-bcf307284d19" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/required-diagnostic-data</para>
+    <para srcId="3d6f92d7-0fb6-dde2-3eb5-3b37744cc909" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/optional-diagnostic-data</para>
+    <para srcId="0370623d-c74c-8150-2070-48eefc72a640" type="href">https://support.office.com/article/cf761ce9-d805-4c60-a339-4e07f3182855</para>
+    <para srcId="b13a2073-cbae-7ea7-a8f5-f450c33220cc" type="href">https://www.microsoft.com/en-us/download/details.aspx?id=49030</para>
+    <para srcId="0a5457ee-3dc7-1df1-095f-a7fb7b26714b" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/required-service-data</para>
+    <para srcId="6b1a8d2f-dd98-9670-001b-b9bee144fc5b" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/connected-experiences</para>
+    <para srcId="6b1a8d2f-dd98-9670-001b-b9bee144fc5b" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/connected-experiences</para>
+    <para srcId="f2d96381-e616-bbb2-213c-793d76741a39" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/optional-connected-experiences</para>
+    <para srcId="81293807-0135-65db-d1a4-49740f35d90f" type="href">https://www.microsoft.com/servicesagreement</para>
+    <para srcId="07a9c405-d3f5-716c-77f1-7f91497b4307" type="href">https://www.microsoft.com/licensing/product-licensing/products</para>
+    <para srcId="f2d96381-e616-bbb2-213c-793d76741a39" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/optional-connected-experiences</para>
+    <para srcId="6b1a8d2f-dd98-9670-001b-b9bee144fc5b" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/connected-experiences</para>
+    <para srcId="aa6dacf0-dc84-2eff-727e-cbc9f4fb7cb1" type="href">https://support.office.com/article/365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501</para>
+    <para srcId="7896ac21-c458-4c85-d784-1b89ed21fa79" type="href">https://support.office.com/article/dc81cc70-4d64-4755-9f1c-b9536e34d381</para>
+    <para srcId="37273191-86a2-06a3-b7fc-3401815c9b58" type="href">https://docs.microsoft.com/azure/active-directory/users-groups-roles/linkedin-integration</para>
+    <para srcId="6b1a8d2f-dd98-9670-001b-b9bee144fc5b" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/connected-experiences</para>
+    <para srcId="5441da0e-f818-51f1-ce92-705ccf69f941" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/essential-services</para>
+    <para srcId="f2d96381-e616-bbb2-213c-793d76741a39" type="href">https://docs.microsoft.com/en-us/deployoffice/privacy/optional-connected-experiences</para>
+    <para srcId="0370623d-c74c-8150-2070-48eefc72a640" type="href">https://support.office.com/article/cf761ce9-d805-4c60-a339-4e07f3182855</para>
+    <para srcId="b275d364-e219-0dc7-6294-8103394c53cd" type="text">Office cloud policy service</para>
+    <para srcId="36cb3d58-47e4-1f95-89d0-448d0b82a3e0" type="text">Microsoft Download Center</para>
+    <para srcId="ef0996fa-1e2c-420f-e3d2-7f655e43eed1" type="text">Overview of privacy controls for Office 365 ProPlus</para>
+    <para srcId="9ef0d74f-dba8-74f7-fd0d-7a65539c381b" type="text">Required diagnostic data for Office</para>
+    <para srcId="437b4622-7656-d707-c68e-1313dfba8b75" type="text">Optional diagnostic data for Office</para>
+    <para srcId="a1cb84f1-5644-08a5-123e-40a2c668bfd8" type="text">Using the Diagnostic Data Viewer with Office</para>
+    <para srcId="36cb3d58-47e4-1f95-89d0-448d0b82a3e0" type="text"> Microsoft Download Center</para>
+    <para srcId="602df98a-baa9-0bb4-5011-74af90b072ed" type="text">required service data</para>
+    <para srcId="260a4d63-d705-e25b-89e0-74797821c631" type="text">Connected experiences in Office</para>
+    <para srcId="260a4d63-d705-e25b-89e0-74797821c631" type="text">Connected experiences in Office</para>
+    <para srcId="be3c2743-4464-e944-f6eb-6092eef2c67e" type="text">Overview of optional connected experiences in Office</para>
+    <para srcId="fc16b03f-163d-1c4b-afb9-e9da33a7c1c9" type="text">Microsoft Services Agreement</para>
+    <para srcId="3e67d07b-7519-43e4-1866-a274fe69c19f" type="text">Online Services Terms</para>
+    <para srcId="be3c2743-4464-e944-f6eb-6092eef2c67e" type="text">Overview of optional connected experiences in Office</para>
+    <para srcId="260a4d63-d705-e25b-89e0-74797821c631" type="text">Connected experiences in Office</para>
+    <para srcId="8548d77a-e468-6607-4dab-99643ee744ff" type="text">profile card</para>
+    <para srcId="09122eae-1279-d80a-09ae-06eed96c3401" type="text">Connect your LinkedIn and Microsoft accounts</para>
+    <para srcId="620dec56-f8a8-577f-d229-ba640ec966ff" type="text">Consent to LinkedIn account connections for an Azure Active Directory organization</para>
+    <para srcId="260a4d63-d705-e25b-89e0-74797821c631" type="text">Connected experiences in Office</para>
+    <para srcId="bd012556-e92e-26bd-d510-128185171bb7" type="text">Essential services</para>
+    <para srcId="95ade40b-20d2-92ec-3d15-686228b60d0d" type="text">optional connected experiences</para>
+    <para srcId="5cfda76f-d592-273c-b3e2-2286e16b2e00" type="text">Diagnostic Data Viewer</para>
+  </content>
+</contentPiece>
